@@ -1,0 +1,59 @@
+{
+  "Original GloVe": {
+    "WEAT 6: career vs family (names)": {
+      "effect_size": 1.666,
+      "p_value": 0.0003
+    },
+    "WEAT 7: math vs arts (terms)": {
+      "effect_size": 1.495,
+      "p_value": 0.0001
+    },
+    "WEAT 8: science vs arts (terms)": {
+      "effect_size": 1.587,
+      "p_value": 0.0001
+    }
+  },
+  "Hard-Debias": {
+    "WEAT 6: career vs family (names)": {
+      "effect_size": 1.311,
+      "p_value": 0.0035
+    },
+    "WEAT 7: math vs arts (terms)": {
+      "effect_size": -1.149,
+      "p_value": 0.9916
+    },
+    "WEAT 8: science vs arts (terms)": {
+      "effect_size": -0.405,
+      "p_value": 0.7741
+    }
+  },
+  "INLP": {
+    "WEAT 6: career vs family (names)": {
+      "effect_size": 1.029,
+      "p_value": 0.0183
+    },
+    "WEAT 7: math vs arts (terms)": {
+      "effect_size": 0.873,
+      "p_value": 0.0422
+    },
+    "WEAT 8: science vs arts (terms)": {
+      "effect_size": -0.83,
+      "p_value": 0.9523
+    }
+  },
+  "_utility_nn_overlap@10": {
+    "Original GloVe": 1.0,
+    "Hard-Debias": 0.887,
+    "INLP": 0.807
+  },
+  "_inlp_gender_probe_accuracy": [
+    1.0,
+    0.698,
+    0.682,
+    0.678,
+    0.612,
+    0.62,
+    0.607,
+    0.545
+  ]
+}
